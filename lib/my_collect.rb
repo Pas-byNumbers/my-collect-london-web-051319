@@ -8,7 +8,5 @@ end
 return new_arr
 end
 
-my_collect(arr) do |i|
-  i.upcase
-end
+
   
