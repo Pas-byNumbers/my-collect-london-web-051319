@@ -5,5 +5,10 @@ def my_collect(arr)
   yield(count)
   count += 1
 end
+return new_arr
 end
 
+my_collect(arr) do |i|
+  new_arr << i.upcase
+end
+  
