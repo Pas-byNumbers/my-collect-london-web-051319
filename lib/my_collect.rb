@@ -9,6 +9,6 @@ return new_arr
 end
 
 my_collect(arr) do |i|
-  new_arr << i.upcase
+  i.upcase
 end
   
